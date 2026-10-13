@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+textarea {
+    width: 100%;
+    height: 110px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+pre {
+    background: #eee;
+    padding: 15px;
+    font-size: 16px;
+}
+
+#position {
+    font-weight: bold;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}

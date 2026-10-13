@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Articulated Robot Path Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Articulated Robot Path Planner</h1>
+    <p>Homogeneous Transformation Matrix Calculator</p>
+
+    <h2>Matrix A</h2>
+    <textarea id="matrixA">1 0 0 10
+0 1 0 20
+0 0 1 30
+0 0 0 1</textarea>
+
+    <h2>Matrix B</h2>
+    <textarea id="matrixB">1 0 0 5
+0 1 0 10
+0 0 1 15
+0 0 0 1</textarea>
+
+    <button onclick="calculatePath()">Calculate Robot Path</button>
+
+    <h2>Output Matrix</h2>
+    <pre id="output">Output will appear here...</pre>
+
+    <h2>End Effector Position</h2>
+    <p id="position">Not calculated</p>
+
+    <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
